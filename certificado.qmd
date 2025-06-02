@@ -1,0 +1,38 @@
+---
+title: ""
+format: 
+  pdf:
+    documentclass: article
+    classoption: landscape
+    pdf-engine: xelatex
+    papersize: a4
+    geometry: top=1.5cm, bottom=1.5cm, left=2cm, right=2cm
+    include-in-header: fondo.tex
+    include-before-body: |
+      \thispagestyle{empty}
+fontsize: 18pt
+---
+
+\vspace*{3.5cm}
+
+\begin{center}
+{\fontsize{36pt}{44pt}\selectfont \textbf{Certificado de Participación}}\\[1.2cm]
+
+{\fontsize{20pt}{28pt}\selectfont Se deja constancia de que}\\[0.6cm]
+
+{\fontsize{28pt}{34pt}\selectfont \textbf{«NOMBRE DE LA PERSONA»}}\\[0.8cm]
+
+{\fontsize{20pt}{28pt}\selectfont participó como \textbf{expositora} en el}\\[0.4cm]
+
+{\fontsize{28pt}{30pt}\selectfont \textit{Club de Lectura Mastering Shiny}}\\[1cm]
+
+{\fontsize{26pt}{20pt}\selectfont \textcolor{violet!40!black}{Gracias por participar}}\\[1cm]
+
+{\fontsize{16pt}{20pt}\selectfont \textbf{Organización:} R-Ladies y R Buenos Aires}
+
+\begin{picture}(0,0)
+  \put(200,20){\makebox(0,0)[l]{\includegraphics[height=7cm]{logo.png}}}
+\end{picture}
+\thispagestyle{empty}
+\end{center}
+
